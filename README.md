@@ -1,9 +1,15 @@
+<div align=center>
+ 
 # Desafio-CAPEF
 Desafio realizado para o processo seletivo da CAPEF.
 
-</br>
+![C#](https://github.com/Fabio-Vicente/Desafio-CAPEF/blob/main/C%23.svg)
+![C#](https://github.com/Fabio-Vicente/Desafio-CAPEF/blob/main/dotnet.svg)
+[![wakatime](https://github.com/Fabio-Vicente/Desafio-CAPEF/blob/main/wakatime.svg)](https://wakatime.com/badge/user/a359206a-54e8-4a00-96f7-8f3fff4d4c41/project/e99315de-b80d-4777-b3a0-ff2be8cb1219)
+ 
+</div>
 
-### Especificação
+### Especificação:
 Criar um CRUD para gerenciamento de empregados em C#.
 
 </br>
@@ -25,7 +31,7 @@ Uma vez com o projeto na máquina local, é necessário os seguintes passos para
 docker-compose up -d
 ```
 Obs: é necessário ter o [Docker Compose](https://docs.docker.com/compose/install/) instalado na máquina
- - Rodar a aplicação. Isso pode ser feito executando-se esse comando na raiz do projeto:
+ - Rodar a aplicação. Isso pode ser feito executando esse comando na raiz do projeto:
  ```
  dotnet run --project src/desafio-capef.csproj
  ```
@@ -36,12 +42,12 @@ Obs: é necessário ter o [Docker Compose](https://docs.docker.com/compose/insta
  ### Já rodei o projeto. Como faço para visualizar a aplicação?
  <hr />
  
- Uma vez que a aplicação já está rodando, é possível acessá-la por meio do próprio endereço informado pelo .Net. É provável que o endereço de acesso seja esse:
+ Uma vez que a aplicação já está rodando, é possível acessá-la por meio do próprio endereço informado pelo próprio .Net. É provável que o endereço de acesso seja esse:
  > https://localhost:7216/Swagger/index.html
  
  Copie e cole esse endereço em um navegador de internet.
 
-##### O endereço não funcionou? Procure pelas portas informadas pelo .Net no próprio terminal. Apenas substitua o número "7216" no endereço acima por um outro disponibilizado pelo .NET.
+##### O endereço não funcionou? Procure pelas portas informadas pelo .Net no próprio terminal. Apenas substitua o número "7216" no endereço acima por um outro disponibilizado pelo .Net.
 
 <br />
 
@@ -51,7 +57,7 @@ Obs: é necessário ter o [Docker Compose](https://docs.docker.com/compose/insta
 A aplicação consiste em 5 rotas para o tratamento da informação:
  - A primeira delas faz a impressão de um relatório indicando quantos empregados existem no banco de dados e trazendo uma lista com todos eles;
  > GET /Staff
- - A outras rotas representão o acrônimo da realização CRUD para um único empregado:
+ - A outras rotas representam o acrônimo da realização CRUD para um único empregado:
  ```
  C - Create (Inserção):
  ```
@@ -71,7 +77,7 @@ A aplicação consiste em 5 rotas para o tratamento da informação:
 
 <br />
  
-###### Obs: Algumas validações foram feitas para se garantir a conformidade dos dados registrados, como a quantidade de dígitos de um CPF ou o formato padrão para um endereço de email. As informações conforme os campos indicados. As alterações realizadas ficam persistidas em banco de dados.
+###### Obs: Algumas validações foram feitas para garantir a conformidade dos dados registrados, como a quantidade de dígitos de um CPF ou o formato padrão para um endereço de email. As informações devem ser inseridas conforme os campos indicados. As alterações realizadas sãoo persistidas em banco de dados.
 
 <br />
 
