@@ -76,3 +76,24 @@ A aplicação consiste em 5 rotas para o tratamento da informação:
 <br />
 
 #### Divirta-se fazendo fazendo várias operações no staff de empregados. 😃
+
+<br />
+
+### Como o código foi desenvolvido?
+
+<hr />
+
+ - Programação Orientada a Objeto;
+ - Implementação de camadas de Model e Controllers;
+ - Implementação do Repository Pattern;
+ - Utilização do ORM (Object-Relational Mapping) Entity Framework;
+ - Atendimento aos princípios SOLID;
+ - Implantação da aplicação utilizando Docker e Docker-Compose;
+
+<br />
+
+### Ficou com alguma dúvida? Entre em contato comigo:
+
+[![WhatsApp](https://img.shields.io/badge/whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5571991366088)
+[![Gmail](https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fabiolvsantos93@gmail.com)
+[![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabio-vicente/)
