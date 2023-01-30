@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  # api:
+  #   container_name: capef_api
+  #   build: .
+  #   ports:
+  #     - "5000:80"
+  #   restart: on-failure
+  #   depends_on:
+  #     - db
+
+  db:
+    container_name: capef_database
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    platform: linux/x86_64
+    ports:
+      - 1433:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Capef@2023
+    restart: on-failure
+    
